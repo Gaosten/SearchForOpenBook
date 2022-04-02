@@ -1,0 +1,84 @@
+.icon-sousuowenjian::before {
+  font-size: 100px;
+}
+
+.icon-youjiantou2::before {
+  
+  font-size: 50px;
+  color: #718093;
+}
+
+.lead::before {
+  display: none;
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7ecee;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.logo {
+  height: 200px;
+  line-height: 200px;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input {
+  text-indent: 0.2em;
+  font-size: 28px;
+  width: 700px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+      
+}
+
+.first {
+  display: inline-block;
+  font-size: 100px;
+}
+
+
+.first::before {
+  content: '';
+}
+
+
+.last {
+  display: inline-block;
+}
+
+
+.show {
+  height: 200px;
+  line-height: 200px;
+  font-size: 50px;
+}
+
+@media screen and (prefers-color-scheme: dark){
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-color: #130f40;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  input {
+    background-color: #535c68;
+    color: azure;
+  }
+}

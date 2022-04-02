@@ -1,0 +1,21 @@
+{
+  "name": "search-for-open-book",
+  "version": "1.0.1",
+  "description": "Prepare for a open book examination!",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "search-for-open-book": "^0.0.0"
+  }
+}
